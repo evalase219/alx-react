@@ -1,1 +1,1 @@
-My readme file in 0x00-Webpack
+My readme file in webpack react
