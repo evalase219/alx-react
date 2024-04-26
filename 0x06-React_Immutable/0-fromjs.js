@@ -1,7 +1,6 @@
-import immutable from 'immutable';
+// Convert objects to immutable form
+import { fromJS } from './node_modules/immutable/dist/immutable';
 
-const { fromJS } = immutable;
-
-const getImmutableObject = (object) => fromJS(object);
-
-export default getImmutableObject;
+export default function getImmutableObject(object) {
+  return fromJS(object);
+}
